@@ -1,0 +1,32 @@
+.contenedor-trabajos
+	padding: 10px 150px
+	overflow: hidden
+	background-image: url('../images/ep_naturalblack.png')
+
+	h1
+		text-align: center
+		color: #fff
+
+	.trabajos
+		display: flex
+		justify-content: space-between
+		flex-wrap: wrap
+
+	.trabajo 
+		width: 22%
+		margin: 10px
+		.imagen
+			width: 100%
+			border: 1px solid #000
+			transition: .3s all ease
+			img
+				width: 100%
+				vertical-align: top
+			&:hover
+				border: 1px solid #fff
+
+		.descripcion
+			color: #fff
+			text-align: center
+			p
+				line-height: 7px
